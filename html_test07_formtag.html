@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>텍스트 입력창 연습</title>
+</head>
+<body>
+    <form action="" method="post">
+        아이디 : <input type="text" name="memberid" size="50"><br><br>
+        비밀번호 : <input type ="password" name="memberpw"><br><br>
+        회원 <input type="radio" name="member" value="on" checked>
+        비회원 <input type="radio" name="member" value="off"> <br><br>
+        취미 : <br>
+        <input type="checkbox" name="hobby1" value="book"> 독서
+        <input type="checkbox" name="hobby2" value="sports"> 운동
+        <input type="checkbox" name="hobby3" value="game"> 게임
+        <input type="checkbox" name="hobby4" value="music"> 음악 <br><br>
+        이메일 : <input type="text" name="email1">
+        <select name="email2">
+            <option value="naver">naver.com</option>
+            <option value="daum">daum.net</option>
+            <option value="gmail">gmail.com</option>
+        </select><br><br>
+        자기소개(200자 이내):<br>
+        <textarea rows="7" cols="80" name="intro"></textarea><br><br>
+        사진업로드 : <input type="file" name="userpic1"><br><br>
+        생년월일 : <input type="datetime-local" name="birth"><br><br>
+        <input type="submit" value="회원가입"><br><br>
+        <input type="reset" value="초기화">
+        <input type="button" value="뒤로가기">
+
+    </form>
+
+</body>
+</html>
